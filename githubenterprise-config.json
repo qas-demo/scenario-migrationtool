@@ -1,0 +1,23 @@
+{
+    "jirausername": "https://sample.atlassian.net",
+    "jiraemail": "sample@gmail.com",
+    "jiraaccesstoken": "sample",
+    "jiraprojectkey": "SAM",
+    
+    "githuburl": "https://sample.com",
+    "githubusername": "sample",
+    "githubreponame": "sample",
+    "githubpersonalaccesstoken": "sample",
+
+    "qtestusername":"sample@gmail.com",
+    "qtestdomain":"https://sample.qtestnet.com",
+    "qtestaccesstoken":"sample",
+
+    "pghostname": "sample",
+    "pgusername": "sample",
+    "pgpassword": "sample",
+    "pgdbname": "sample",
+    "accountname": "jira:sample",
+
+    "mongourl": "mongodb://localhost:27017/sample"
+}

@@ -1,0 +1,40 @@
+{
+  "name": "scenario-migrationtool",
+  "version": "0.0.2",
+  "description": "This Utility migrates data from Scenario v1 to v2.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/QAS-Labs/qspec-migrationtool.git"
+  },
+  "keywords": [
+    "DataMigration",
+    "NodeJS",
+    "JavaScript",
+    "PostgreSQL",
+    "MongoDB"
+  ],
+  "author": "Hari Kiran Yalavarthi <harikiranyalavarthi9@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/QAS-Labs/qspec-migrationtool/issues"
+  },
+  "homepage": "https://github.com/QAS-Labs/qspec-migrationtool#readme",
+  "dependencies": {
+    "@octokit/rest": "^15.3.0",
+    "assert": "^1.4.1",
+    "axios": "^0.18.0",
+    "form-data": "^2.3.2",
+    "fs": "0.0.1-security",
+    "js-base64": "^2.4.3",
+    "log4js": "^2.5.3",
+    "mongodb": "^3.0.8",
+    "octokit": "^0.10.4",
+    "pg": "^7.4.3",
+    "request": "^2.85.0",
+    "xmlhttprequest": "^1.8.0"
+  }
+}
