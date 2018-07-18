@@ -272,7 +272,7 @@ getValues(function(projectkey, ownername, reponame, githubtoken, qtestusername, 
             logger.error(new Error("Couldn't retrieve commits from features/"+projectkey+" folder on "+reponame+" repository for github user "+ownername));
         }
 
-        var vcsresponse = await octokit.repos.get({owner: 'harikiranyalavarthi9', repo: 'qspec-featurefiles', path: 'features'});
+        var vcsresponse = await octokit.repos.get({owner: ownername, repo: reponame, path: 'features'});
         if(vcsresponse.meta.status == "200 OK") {
             vcsUrl = vcsresponse.data.html_url;
             vcsBranch = vcsresponse.data.default_branch;
