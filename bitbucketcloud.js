@@ -240,7 +240,7 @@ getValues(function(projectkey, bitbucketowner, reponame, bitbucketpassword, qtes
                     });
                     var form = req.form(); 
                     form.append('message', '[skip ci] Create feature');
-                    form.append('author', 'Hari Kiran Yalavarthi<harikiranyalavarthi9@gmail.com>');
+                    form.append('author', 'admin');
                     form.append('branch', 'master');
                     form.append(featurefolderArray[i],featuredataArray[i], { filename: featureArray[i]});
                 });
